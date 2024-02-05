@@ -1,0 +1,67 @@
+.myCard {
+    height: 270px;
+    border: solid 1px #5a66a6;
+    border-radius: 10px;
+    box-shadow:  0 0 10px rgba(204, 204, 204, 0.24);
+    background-color: #ffffff40;
+    backdrop-filter: blur(5px);
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    margin-right: 10px;
+    text-align: center;
+}
+.myCard:hover{
+   
+    transform: scale(1.1);
+    background-color: #5a66a6;
+}
+.page-main-title {
+    color:#ffffff;
+    background-color:#5a66a6;
+    background-size: auto 100%;
+    min-height: 175px;
+    padding: 0;
+    background-position: center center;
+    position: relative;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-image: url(/assets/Image_groupéeactivités.jpg);
+    
+
+}
+
+.page-main-title h1 p:first-child{
+    margin-top: 55px;}
+.page-main-title h1 {
+    margin-bottom: 5 px;
+    margin-left: 20px;
+    margin-right:20px;
+    font-size:38px;
+    text-transform: uppercase;
+}
+.page-main-title p.description {
+    margin: 0 20px 30px;
+    color: #fff !important;
+    font-family: calendas-plus,serif;
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 0;
+    text-transform: initial;
+    margin: 0 20px 30px;}
+
+
+/*border: #ff0000;*/
+
+.paragr-1{
+    padding-top: 10px;
+    margin-left: 10px;
+}
+.h2-paragr{
+    margin-left: 10px;  
+}
+/*.home:not(.page-main-title div)  {
+    margin-left: 10px;
+}*/
+
+
+

@@ -1,0 +1,94 @@
+<!-- home Content -->
+<div class="home">      
+    <p class="paragr-1"> 
+        <strong>
+        Nous! est une plateforme qui permet une rencontre entre les groupes proposant des activités et les personnes désirant
+         avoir une activité à faire en groupe
+        </strong>
+    </p>
+    <div class="page-main-title" >
+        <div class="container">
+            <h1>Nous!</h1>
+            <p class="description">Le plaisir de se divertir ensemble!</p>
+        </div>
+    </div>
+
+    <div class="h2-paragr">
+        <h2 class="center">Groupes d'activités en Ile de France</h2>
+        <p>
+            Rencontrez des personnes avec qui vous partagez les mêmes loisirs.<br />
+            Partez à la découvert des meilleures visites de châteaux et musées.
+            <br />
+            Adhérez à un groupe de lecture <br />
+            Partagez des promenades dans de nombreuses et splendides forêts<br />
+            Découvrez de nouvelles recettes et partagez les vôtres<br />
+            Jouez en groupe (Scrabble, echecs et autres)
+        </p>
+    </div>
+    <h3 class="h2-paragr">Trouvez l’activité que vous souhaitez partager avec une communauté</h3>
+    <h4 class="h2-paragr">Choisir une activité</h4>
+    <section class="img-activites">        
+        <div class="row mx-auto">
+            <div class="col-xl-3 col-lg-4 col-md-6 myCard mx-auto mt-3" *ngFor="let activite of allActivites">
+                <a routerLink="{{ activite.route }}">{{ activite.name }}</a>
+                <img [src]="activite.picture" width="300" alt="">
+            </div>
+        </div>
+    </section>
+</div>
+    
+
+   <!-- <div class="layout__slot layout__slot--filled layout__gridSlot   layout__slot--4x0 js-layout__slot">  
+        <div class="card toolboxFlexibleCard toolbox-flexible-card" style="--couleur-fond: #ededed; --couleur-texte: #000000;">
+            <div class="toolbox-flexible-card__inner">                
+                <h2 class="toolbox-flexible-card__title">Trouvez l’activité que vous souhaitez partager avec une communauté</h2>
+            <div class="toolbox-flexible-card__contents">
+                <div class="activites-outer scroller-parent scroller--oversize">
+                    <button type="button" class="activites__previous">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48" viewBox="0 0 48 48">
+                            <path d="m27.25 34.4-9.5-9.45q-.2-.2-.3-.45-.1-.25-.1-
+                            .55 0-.3.1-.525.1-.225.3-.425l9.5-9.55q.35-.3.8-.3.45 0 .8.35.3.3.275.8-.025.5-.325.8l-8.9 8.85 8.95 8.9q.3.35.3.775
+                             0 .425-.3.775-.35.35-.825.35t-.775-.35Z"></path>   
+                        </svg>  
+                    </button>                 
+                    <div class="activites scroller-items-wrapper">
+                        <div class="">
+                            <div class="">
+                               <h3 class="a-color-base headline truncate-2line">Visites de châteaux et musées</h3>
+                            </div>                   
+                                
+                            <img class="visite" src="assets/visites-de-châteaux-et-musées.jpg" alt="visites-de-châteaux-et-musées" width="370" height="370">                 
+                        </div>
+                        <div class="">                           
+                            <div class="">
+                               <h4 class="a-color-base headline truncate-2line">Ateliers culinaires</h4>
+                               <img class="Visites-photo" src="assets/ateliers-culinaires.jpg" alt="ateliers-culinaires" width="370" height="370">
+                            </div>                                              
+                            <div class="">
+                                <div class="">
+                                   <h5 class="a-color-base headline truncate-2line">Groupe de lecture</h5>
+                                </div>                   
+                                    
+                                <img class="temoignage__photo" src="assets/groupe-de-lecture.jpg" alt="groupe-de-lecture" width="370" height="370">                 
+                            </div>
+                            <div class="">
+                                <div class="">
+                                   <h6 class="a-color-base headline truncate-2line">jeux-de-société</h6>
+                                </div>                   
+                                    
+                                <img class="temoignage__photo" src="assets/jeux-de-société.jpg" alt="jeux-de-société" width="370" height="370">                 
+                            </div>
+                            <div class="">
+                                <div class="">
+                                   <span class="a-color-base headline truncate-2line">balades-en-fôret</span>
+                                </div>                   
+                                    
+                                <img class="temoignage__photo" src="assets/balades-en-fôret.jpg" alt="balades-en-fôret" width="370" height="370">                 
+                            </div>
+                    </div>  -->
+        
+<!--<section class="container">
+    <h1 class="text-center"><img src="assets/logo.png" width="190" alt=""></h1>
+    <h1 class="text-center"> <img *ngFor="let activite of allActivites" src="assets/pok.png" width="20" alt=""
+            [title]="activite.name"></h1>-->
+    
